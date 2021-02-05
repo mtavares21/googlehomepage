@@ -6,8 +6,10 @@ ul{
     font-size: 13px;
     line-height: normal;
     font-family: arial,sans-serif;
-    color: #000;
+    color: rgba(0,0,0,0.87);
     cursor: pointer;
+    font-size: 13px;
+
    
 }
 li{
@@ -67,26 +69,30 @@ input{
 
 }
 
-button{
+.button{
     background-image: -webkit-linear-gradient(top,#f8f9fa,#f8f9fa);
-    background-color: #f8f9fa;
-    border: 1px solid #f8f9fa;
-    border-radius: 4px;
-    color: #3c4043;
-    font-family: arial,sans-serif;
-    font-size: 14px;
-    padding: 0 16px;
-    line-height: 27px;
-    height: 36px;
-    min-width: 54px;
-    text-align: center;
-    cursor: pointer;
-    user-select: none;
+background-color: #f8f9fa;
+border: 1px solid #f8f9fa;
+border-radius: 4px;
+color: #3c4043;
+font-family: arial,sans-serif;
+font-size: 14px;
+margin: 11px 4px;
+padding: 0 16px;
+line-height: 27px;
+height: 36px;
+min-width: 54px;
+text-align: center;
+cursor: pointer;
+user-select: none;
 }
 
-.button{
-    margin-top: 30px;
-    margin-bottom: 30px;
+.buttons{
+    font-family: arial,sans-serif;
+    color: #202124;
+    font-size: small;
+    display:inline-flex;
+    margin-top: 20px;
 }
 
 .pt{
@@ -146,8 +152,7 @@ footer{
     bottom: 0;
     width: 100%;
     background-color:#f8f9fa;
-    border-top-style: solid;
-    border-color:rgb(218, 214, 214);
+    
     
     
 }
@@ -155,19 +160,28 @@ footer{
 #country{
     font-family: arial,sans-serif;
     color: #202124;
-    padding: 15px;
+    padding: px;
     font-size: 14px;
-    border-top-color:rgb(29, 28, 28);
+    border-top-color:rgb(204, 201, 201);
     border-top-style: solid;
-    border: 1px;
-    
+    border-top-width:thin;
+    border-bottom-width:thin;
+    border-bottom-color:rgb(204, 201, 201);
+    border-bottom-style:solid;
+    font-family: arial,sans-serif;
+line-height: 40px;
+color: rgba(0,0,0,.54);
+font-size: 15px;
+
 }
 
 .a{
     display: block;
     text-align: center;
-    border-top-style: solid;
+    border-top-style: soli;
     border-color: rgb(218, 214, 214);
+    color:#70757a
+    
     
 }
 
@@ -175,6 +189,16 @@ footer{
     display: block;
     text-align: center;
     margin-bottom: 1px;
-    border-top-style:solid;
-    border-color: rgb(218, 214, 214);
+    color:#70757a
+}
+button{
+    background-image: -webkit-linear-gradient(top,#f8f9fa,#f8f9fa);
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color:#70757a;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
 }
